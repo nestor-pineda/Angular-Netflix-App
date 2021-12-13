@@ -1,0 +1,14 @@
+<nav>
+  <div class="left-nav">
+    <img class="logo" src="{{ nav.logo.src }}" alt="{{ nav.logo.alt }}" />
+    <div class="nav-links">
+      <span class="single-link" *ngFor="let item of nav.links">
+        <a href="#">{{ item }}</a>
+      </span>
+    </div>
+  </div>
+  <div class="right-nav">
+    <i class="pi pi-search"></i>
+    <i class="pi pi-bell"></i>
+  </div>
+</nav>

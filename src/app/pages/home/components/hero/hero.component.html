@@ -1,0 +1,14 @@
+<div
+  class="hero-section"
+  [ngStyle]="{ 'background-image': 'url(' + hero.imgHero.src + ')' }"
+>
+  <h2>{{ hero.title }}</h2>
+  <div class="des-box">
+    <p>{{ hero.description }}</p>
+
+    <div class="buttons">
+      <p-button label="Play" icon="pi pi-play" iconPos="left"></p-button>
+      <p-button label="My List" icon="pi pi-plus" iconPos="left"></p-button>
+    </div>
+  </div>
+</div>

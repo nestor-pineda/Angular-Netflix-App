@@ -1,0 +1,10 @@
+<div class="top-section">
+  <h2>{{ top.title }}</h2>
+
+  <div class="top-gallery">
+    <div class="single-film" *ngFor="let item of top.imgGallery">
+      <p class="top-number">{{ item.num }}</p>
+      <img src="{{ item.src }}" alt="{{ item.alt }}" />
+    </div>
+  </div>
+</div>

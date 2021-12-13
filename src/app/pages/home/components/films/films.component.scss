@@ -1,0 +1,21 @@
+.film-section {
+  background-color: black;
+  padding: 20px 60px;
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .films-gallery {
+    display: flex;
+    justify-content: flex-start;
+    .single-film {
+      img {
+        width: 100%;
+        max-width: 200px;
+        // min-width: 120px;
+        margin-right: 15px;
+      }
+    }
+  }
+}
