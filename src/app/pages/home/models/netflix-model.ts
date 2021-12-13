@@ -11,8 +11,8 @@ export interface Nav {
 }
 
 export interface Hero {
-  title: string;
   imgHero: Img;
+  imgTitle: Img;
   description: string;
 }
 

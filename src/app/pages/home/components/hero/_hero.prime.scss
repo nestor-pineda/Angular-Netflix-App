@@ -1,0 +1,30 @@
+.p-button {
+  border-radius: 2px;
+  transition: background-color 0.1s, color 0s, border-color 0.1s,
+    box-shadow 0.1s;
+}
+
+button.p-button.play {
+  background: #fff;
+  color: #000;
+  border: none;
+  margin-right: 10px;
+}
+
+button.p-button.play:hover {
+  background: #000000;
+  color: #ffffff;
+  border-color: #000;
+}
+
+button.p-button.list {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+}
+
+button.p-button.list:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  border-color: #000;
+}

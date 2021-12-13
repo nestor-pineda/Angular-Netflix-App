@@ -19,12 +19,16 @@ export class HomeComponent implements OnInit {
         links: ['Home', 'TV Shows', 'Movies', 'Recently Added', 'My List'],
       },
       hero: {
-        title: 'Top 10 populares',
         imgHero: {
-          src: '../../../assets/img/Top10/1-papel.webp',
+          src: '../../../assets/img/hero/narcos.jpg',
           alt: 'La casa de Papel',
         },
-        description: 'Bla bla bla bla bla bla',
+        imgTitle: {
+          src: '../../../assets/img/hero/narcos-name.png',
+          alt: 'La casa de Papel',
+        },
+        description:
+          'Narcos is a television series developed by Netflix that focuses on the true story of a dangerous spread and spread of a cocaine network around the world during the 70s and 80s.',
       },
       top: {
         title: 'Top 10',
