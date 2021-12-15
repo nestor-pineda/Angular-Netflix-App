@@ -9,7 +9,7 @@ import { FilmsComponent } from './pages/home/components/films/films.component';
 import { TopComponent } from './pages/home/components/top/top.component';
 import { ButtonModule } from 'primeng/button';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
-import { SliderComponent } from './pages/home/components/slider/slider.component';
+
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { CarouselComponent } from './pages/home/components/carousel/carousel.component';
 
@@ -21,7 +21,7 @@ import { CarouselComponent } from './pages/home/components/carousel/carousel.com
     HeroComponent,
     FilmsComponent,
     TopComponent,
-    SliderComponent,
+
     CarouselComponent,
   ],
   imports: [

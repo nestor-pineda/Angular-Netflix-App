@@ -1,5 +1,5 @@
-import { Films } from './../../models/netflix-model';
 import { Component, Input, OnInit } from '@angular/core';
+import { Films } from './../../models/netflix-model';
 
 @Component({
   selector: 'app-films',

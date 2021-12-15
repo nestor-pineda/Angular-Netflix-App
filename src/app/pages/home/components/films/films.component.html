@@ -1,9 +1,11 @@
 <div class="film-section">
-  <h2>{{ films.title }}</h2>
-
-  <div class="films-gallery">
-    <div class="single-film" *ngFor="let item of films.imgGallery">
+  <h2 class="films">{{ films.title }}</h2>
+  <carousel>
+    <div
+      class="single-film carousel-cell"
+      *ngFor="let item of films.imgGallery"
+    >
       <img src="{{ item.src }}" alt="{{ item.alt }}" />
     </div>
-  </div>
+  </carousel>
 </div>
