@@ -1,4 +1,8 @@
-# NetflixApp3
+# Netflix home interface
+
+![Placeholder Image](presentation2.gif)
+
+ I have created the Netflix interface with Angular 13. For some components I have used PrimeNG.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
