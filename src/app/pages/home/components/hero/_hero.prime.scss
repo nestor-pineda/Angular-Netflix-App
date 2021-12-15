@@ -21,11 +21,11 @@ button.p-button.play {
 }
 
 button.p-button.play:hover {
-  background: #000000;
+  background: rgba(40, 40, 40, 0.8);
   color: #ffffff;
-  border-color: #000;
-  outline: 2px solid #fff;
-  outline-offset: 2px;
+  // border-color: #000;
+  // outline: 2px solid #fff;
+  // outline-offset: 2px;
 }
 
 button.p-button.list {
@@ -35,7 +35,7 @@ button.p-button.list {
 }
 
 button.p-button.list:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(40, 40, 40, 0.8);
   color: #ffffff;
   border-color: #000;
 }
