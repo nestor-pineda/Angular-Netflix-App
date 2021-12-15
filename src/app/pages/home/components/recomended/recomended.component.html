@@ -1,0 +1,24 @@
+<div class="film-section">
+  <h2 class="films">{{ recomended.title }}</h2>
+  <h3 class="sub">{{ recomended.subtitle }}</h3>
+  <carousel [style]="{ height: '320px' }">
+    <div
+      class="single-film carousel-cell"
+      *ngFor="let item of recomended.description"
+    >
+      <p-card [style]="{ width: '200px' }" styleClass="p-card-shadow">
+        <ng-template pTemplate="header">
+          <img src="{{ item.src }}" alt="{{ item.alt }}" />
+        </ng-template>
+        <p-button
+          class="percent"
+          label="{{ item.percentage }}"
+          icon="pi pi-star-fill"
+        ></p-button>
+        <p class="text-des">
+          {{ item.text }}
+        </p>
+      </p-card>
+    </div>
+  </carousel>
+</div>

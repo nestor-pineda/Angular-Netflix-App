@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "./app/pages/home/components/hero/hero.prime";
+@import "./app/pages/home/components/recomended/recomended.prime";
 
 html,
 body {
@@ -13,4 +14,4 @@ body {
 }
 
 // Prime NG overwrite styles
-//HERO
+//Cards

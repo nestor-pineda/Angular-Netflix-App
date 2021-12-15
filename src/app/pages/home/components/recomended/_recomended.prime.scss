@@ -1,0 +1,31 @@
+// Prime NG overwrite styles
+//Cards
+
+.p-card-body {
+  background-color: #1a1a1a;
+}
+
+.percent button {
+  background-color: #383838;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 0.85rem;
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.percent button:hover {
+  background-color: #383838;
+}
+
+.p-card .p-card-content {
+  padding: 0;
+}
+
+.percent .p-button:enabled:hover {
+  background-color: #383838;
+}

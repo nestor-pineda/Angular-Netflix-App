@@ -1,4 +1,8 @@
-import { NetflixModel, Films } from './models/netflix-model';
+import {
+  NetflixModel,
+  Films,
+  RecomendedFilmsModel,
+} from './models/netflix-model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,6 +15,7 @@ export class HomeComponent implements OnInit {
   public acctionFilms: Films;
   public comedyFilms: Films;
   public dramaFilms: Films;
+  public recomendedFilmsModel: RecomendedFilmsModel;
 
   constructor() {
     this.netflixModel = {
@@ -128,8 +133,8 @@ export class HomeComponent implements OnInit {
             alt: 'Infierno',
           },
           {
-            src: '../../../assets/img/Terror/insidious2.webp',
-            alt: 'Insidouus 2',
+            src: '../../../assets/img/Sci-fi/watchmen.webp',
+            alt: 'Watchman',
           },
         ],
       },
@@ -282,6 +287,79 @@ export class HomeComponent implements OnInit {
         {
           src: '../../../assets/img/Drama/sombradiablo.webp',
           alt: 'La sombra del diablo',
+        },
+      ],
+    };
+    this.recomendedFilmsModel = {
+      title: 'Recomended Films for you',
+      subtitle:
+        'We know what you like so here you have some films that we think you might love!',
+      description: [
+        {
+          src: '../../../assets/img/Sci-fi/12monos.webp',
+          alt: '12 monos',
+          percentage: '83% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/6dia.webp',
+          alt: '6 días',
+          percentage: '85% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/afterearth.webp',
+          alt: 'After Earth',
+          percentage: '95% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/colverparadox.jpg',
+          alt: 'Colver Paradox',
+          percentage: '75% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/core.webp',
+          alt: 'Core',
+          percentage: '73% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/deepimpact.webp',
+          alt: 'Deep Impact',
+          percentage: '92% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/doom.webp',
+          alt: 'Doom',
+          percentage: '81% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/gits.webp',
+          alt: 'Gits',
+          percentage: '79% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/jumper.webp',
+          alt: 'Jumper',
+          percentage: '88% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/passengers.webp',
+          alt: 'Passanger',
+          percentage: '79% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
+        },
+        {
+          src: '../../../assets/img/Sci-fi/startrek.webp',
+          alt: 'Startrek',
+          percentage: '80% affinity',
+          text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
         },
       ],
     };

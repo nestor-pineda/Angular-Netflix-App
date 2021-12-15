@@ -1,7 +1,16 @@
 .p-button {
   border-radius: 2px;
-  transition: background-color 0.1s, color 0s, border-color 0.1s,
-    box-shadow 0.1s;
+  transition: none;
+  border: none;
+  // box-sizing: border-box;
+}
+
+.p-button-label {
+  transition: all 0s;
+}
+
+.p-button:focus {
+  box-shadow: none;
 }
 
 button.p-button.play {
@@ -15,6 +24,8 @@ button.p-button.play:hover {
   background: #000000;
   color: #ffffff;
   border-color: #000;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 button.p-button.list {

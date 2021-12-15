@@ -26,6 +26,12 @@ export interface Films {
   imgGallery: Img[];
 }
 
+export interface RecomendedFilmsModel {
+  title: string;
+  subtitle: string;
+  description: Description[];
+}
+
 export interface Img {
   src: string;
   alt: string;
@@ -35,4 +41,11 @@ export interface ImgNumber {
   src: string;
   alt: string;
   num: string;
+}
+
+export interface Description {
+  src: string;
+  alt: string;
+  percentage: string;
+  text: string;
 }
